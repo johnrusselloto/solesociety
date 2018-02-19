@@ -1,0 +1,287 @@
+    html,
+    body {
+        width: 100%;
+        height: 100%; 
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    }
+
+    @font-face {
+        font-family: sneakers-pro; src: url('fonts/sneakerspromedium.ttf');
+        }
+
+        header,
+        .navbar-brand,
+        .brand-button, 
+        h1,
+        h2,
+        h3 {
+            font-family: sneakers-pro, sans-serif;
+            font-style: normal;
+    }  
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    header {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-image: url('images/kicksbg.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .header-content {
+        position: relative;
+        width: 100%;
+        padding: 220px 15px 70px;
+        text-align: center;
+    }
+
+    .modal-body .container .form-group button,
+    .brand-button {
+        border-color: orange;
+        color: #fff;
+        background-color: orange;
+    }
+
+    .modal-body .container .form-group button:hover,
+    .modal-body .container .form-group button:active,
+    .modal-body .container .form-group button:focus,
+    header .header-content .header-content-inner .brand-button:hover,
+    header .header-content .header-content-inner .brand-button:active,
+    header .header-content .header-content-inner .brand-button:focus {
+        border-color: orangered!important;
+        background-color: orangered!important;    
+    }
+
+    .btn {
+        text-transform: uppercase;
+    }
+
+    .btn-lg {
+        padding: 15px 30px;
+    }
+
+    nav .container .navbar-header .navbar-brand {
+        color: orange;
+    }
+ 
+
+    .banner-item {
+        height: 200px;
+    }
+
+    .banner-item:hover {
+        background-size: 110%; 
+        border: 10px solid rgba(0,0,0,.5);
+    }
+
+    .item-1 {
+        background: url('images/banner6.jpg');
+    }
+    
+    .item-2 {
+        background: url('images/banner4.jpg');
+    }
+    
+    .item-3 {
+        background: url('images/banner2.jpg');
+    }
+
+    .item-1,
+    .item-2,
+    .item-3 {
+        background-position: center;
+        background-size: cover;    
+    }
+
+    .btn-default {
+        border-color: white;
+        color: #222;
+        background-color: white;
+    }
+
+    nav .container #navbar .input-group input:hover,
+    .btn-default:hover,
+    .btn-default:focus,
+    .btn-default:active {
+        border-color: lightgrey;
+        color: lightgrey;
+        background-color: rgba(0,0,0,.3);
+    }
+
+    .btn-primary {
+        border-color: orange;
+        color: #fff;
+        background-color: orange;
+    }
+
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active {
+        border-color: orangered!important;
+        color: white;
+        background-color: orangered!important;
+    }
+
+    #products-1 h1,
+    #products-2 h1 {
+        color: #dd845a;
+    }
+
+    #products-1 .row .col-md-3 .thumbnail img,
+    #products-2 .row .col-md-3 .thumbnail img{
+        height: 150px;
+    }
+
+    .product h3 {
+        color: #dd845a;
+        font-size: 18px;
+    }
+
+    .product .price {
+        color: #dd845a;
+        font-size: 16px;
+    }
+        
+    .product .price s {
+        color: #999;
+        font-size: 16px;
+    }
+
+    #myfooter {
+        background-color: #373a48;
+        color:white;
+    }
+
+    #myfooter .footer-copyright{
+        background-color: #383737;
+        text-align: center;
+    }
+
+    #myfooter .footer-copyright p{
+        color: #ccc;
+    }
+
+    #myfooter .container .row .column ul{
+        list-style-type: none;
+        padding-left: 0;
+        line-height: 1.7;
+    }
+
+    #myfooter .container .row .column ul li {
+        color: lightgrey;
+    }
+
+    #myfooter h5{
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    #myfooter a{
+        color:#d2d1d1;
+        text-decoration: none;
+    }
+
+    #myfooter a:hover, #myFooter a:focus{
+        text-decoration: none;
+        color:white;
+    }
+
+    #myfooter .column {
+        text-align: center;
+    }
+
+    #myfooter .social-networks{
+        text-align: center;
+    }
+
+    #myfooter .social-networks a{
+        margin-right: 5px;
+        margin-left: 5px;
+        color: #f9f9f9;
+        transition: 0.2s;
+    }
+
+    #myfooter .social-networks a:hover,
+    #myfooter .social-networks a:active,
+    #myfooter .social-networks a:focus {
+        text-decoration: none;
+    }
+
+    #myfooter .facebook:hover,
+    #myfooter .facebook:active,
+    #myfooter .facebook:focus {
+        color: #3b5998;
+    }
+
+    #myfooter .twitter:hover,
+    #myfooter .twitter:active,
+    #myfooter .twitter:focus {
+        color: #0084b4;
+    }
+
+    #myfooter .instagram:hover,
+    #myfooter .instagram:active,
+    #myfooter .instagram:focus {
+        color: #966842;
+    }
+
+    #myfooter .google:hover,
+    #myfooter .google:active,
+    #myfooter .google:focus {
+        color: #c71610;
+    }
+
+    .footer-copyright .col-sm-12 {
+        background-color:  #181719;  
+    }
+
+    .map-responsive {
+        padding-top: 5px;
+    }
+
+    #registration-form{
+        width: auto; 
+    }
+
+   @media (min-width:768px) {
+        header {
+            min-height: 100%;
+        }
+
+        header .header-content .header-content-inner {
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 50%;
+            padding: 30px;
+            background-color: rgba(20,20,20,0.3);
+        }
+
+        .navbar-default {
+            border-color: rgba(255,255,255,.3);
+            background-color: transparent;
+        }
+
+        nav .container .navbar-header .navbar-brand {
+            color: orange;
+        }
+
+        nav .container .navbar-header .navbar-brand:hover,
+        nav .container .navbar-header .navbar-brand:focus,
+        nav .container .navbar-header .navbar-brand:active {
+            color: orangered;
+        }
+
+        nav .container #navbar a:hover,
+        nav .container #navbar a:focus,
+        nav .container #navbar a:active {
+            color: white;
+        }
+    }
